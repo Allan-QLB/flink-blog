@@ -11,7 +11,7 @@ Flink 的网络栈是flink-runtime模块的一个核心组件，在Flink作业�
 
 Flink 的网络栈对于子任务（subtask）之间相互通信提供了如下的逻辑视图，例如在网络Task A 通过keyBy()方法与Task B之间的数据shuffle。
 
-![logic view](images/network-stack-blog1.png)
+![logic view](../images/network-stack-blog1.png)
 
 这个过程通过下面三个概念的不同设定来进行抽象：
 
